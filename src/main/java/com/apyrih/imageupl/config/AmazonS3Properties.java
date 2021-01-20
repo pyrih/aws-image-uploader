@@ -1,4 +1,4 @@
-package com.apyrih.awsimageuploader.config;
+package com.apyrih.imageupl.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;
