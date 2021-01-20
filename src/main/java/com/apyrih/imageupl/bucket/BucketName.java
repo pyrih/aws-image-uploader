@@ -1,4 +1,4 @@
-package com.apyrih.awsimageuploader.bucket;
+package com.apyrih.imageupl.bucket;
 
 public enum BucketName {
     PROFILE_IMAGE("image-upload-n6m4gb");
@@ -7,5 +7,9 @@ public enum BucketName {
 
     BucketName(String bucketName) {
         this.bucketName = bucketName;
+    }
+
+    public String getBucketName() {
+        return bucketName;
     }
 }

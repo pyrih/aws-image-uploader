@@ -1,4 +1,4 @@
-package com.apyrih.awsimageuploader;
+package com.apyrih.imageupl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
 @SpringBootApplication
 @ConfigurationPropertiesScan
-public class AwsImageUploaderApplication {
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AwsImageUploaderApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 
 }
